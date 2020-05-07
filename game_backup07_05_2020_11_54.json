@@ -20,13 +20,6 @@
             0,
             0,
             ""
-        ],
-        "wooden_sword": [
-            "A wooden sword.",
-            10,
-            5,
-            0,
-            ""
         ]
     },
     "locations": [
@@ -50,8 +43,7 @@
                 }
             },
             "unlocked": true,
-            "unlock_item": null,
-            "enemy_classes": []
+            "unlock_item": null
         },
         {
             "connections": {
@@ -73,8 +65,7 @@
                 }
             },
             "unlocked": true,
-            "unlock_item": null,
-            "enemy_classes": []
+            "unlock_item": null
         },
         {
             "connections": {
@@ -96,8 +87,7 @@
                 }
             },
             "unlocked": false,
-            "unlock_item": "bomb",
-            "enemy_classes": []
+            "unlock_item": "bomb"
         },
         {
             "connections": {
@@ -119,19 +109,8 @@
                 }
             },
             "unlocked": true,
-            "unlock_item": null,
-            "enemy_classes": [
-                0
-            ]
+            "unlock_item": null
         }
     ],
-    "enemy_classes": [
-        [
-            "skeleton",
-            10,
-            5,
-            0,
-            100
-        ]
-    ]
+    "enemy_classes": []
 }

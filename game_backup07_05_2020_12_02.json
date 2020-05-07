@@ -51,7 +51,7 @@
             },
             "unlocked": true,
             "unlock_item": null,
-            "enemy_classes": []
+			"enemy_classes": []
         },
         {
             "connections": {
@@ -74,7 +74,7 @@
             },
             "unlocked": true,
             "unlock_item": null,
-            "enemy_classes": []
+			"enemy_classes": []
         },
         {
             "connections": {
@@ -97,7 +97,7 @@
             },
             "unlocked": false,
             "unlock_item": "bomb",
-            "enemy_classes": []
+			"enemy_classes": []
         },
         {
             "connections": {
@@ -120,18 +120,8 @@
             },
             "unlocked": true,
             "unlock_item": null,
-            "enemy_classes": [
-                0
-            ]
+			"enemy_classes": [0]
         }
     ],
-    "enemy_classes": [
-        [
-            "skeleton",
-            10,
-            5,
-            0,
-            100
-        ]
-    ]
+    "enemy_classes": []
 }

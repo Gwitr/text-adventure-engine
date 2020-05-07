@@ -1,4 +1,5 @@
 {
+	"enemy_classes": [],
     "item_classes": {
         "gold_coin": [
             "A shiny golden coin. Can be used in shops.",
@@ -18,13 +19,6 @@
             "A valuable gem.",
             300,
             0,
-            0,
-            ""
-        ],
-        "wooden_sword": [
-            "A wooden sword.",
-            10,
-            5,
             0,
             ""
         ]
@@ -50,8 +44,7 @@
                 }
             },
             "unlocked": true,
-            "unlock_item": null,
-            "enemy_classes": []
+            "unlock_item": null
         },
         {
             "connections": {
@@ -73,8 +66,7 @@
                 }
             },
             "unlocked": true,
-            "unlock_item": null,
-            "enemy_classes": []
+            "unlock_item": null
         },
         {
             "connections": {
@@ -96,42 +88,7 @@
                 }
             },
             "unlocked": false,
-            "unlock_item": "bomb",
-            "enemy_classes": []
-        },
-        {
-            "connections": {
-                "N": 4,
-                "S": null,
-                "E": null,
-                "W": 0
-            },
-            "spawn_rate": 60,
-            "text": "You are in a hallway.",
-            "look": "The hallway extends in the north direction. %!something:collected{There is /something/ on the floor.}",
-            "name": "skeletonroom1",
-            "inspectables": {
-                "something": {
-                    "text": "A wooden sword.",
-                    "text_collected": "",
-                    "content": "wooden_sword",
-                    "contentn": 1
-                }
-            },
-            "unlocked": true,
-            "unlock_item": null,
-            "enemy_classes": [
-                0
-            ]
+            "unlock_item": "bomb"
         }
-    ],
-    "enemy_classes": [
-        [
-            "skeleton",
-            10,
-            5,
-            0,
-            100
-        ]
     ]
 }
